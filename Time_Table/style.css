@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 240, 240);
+    display: grid;
+    justify-content: center; 
+}
+
+header{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+caption {
+    font-size: 20px; 
+    margin: 10px; 
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.study{
+    background: rgb(183, 224, 255);
+}
