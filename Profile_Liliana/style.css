@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 60, 139);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+main {
+    width: 700px;
+    height: 700px;
+    background-color: rgb(158, 169, 240);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.left{
+    flex-grow: 3;
+    background-color: rgb(158, 169, 240);
+    display: grid;
+}
+
+.right{
+    flex-grow: 1;
+    background-color: rgb(204, 193, 255);
+    display: grid;
+}
+
+.item{
+    background-color: rgb(255, 234, 254);
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.item:hover{
+    background-color: rgb(245, 204, 244);
+}
+
+h3, p{
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img, .name, .bt{
+    margin: 10px;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.name{
+    color: #ffffff;
+}
+
+.styled-button {
+    background-color: rgb(62, 27, 220); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px 30px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    width: 150px; 
+}
+
+.styled-button:hover {
+    background-color: rgb(101, 67, 253); 
+    transform: scale(1.05); 
+}
+
+.styled-button:active {
+    transform: scale(0.95); 
+}
